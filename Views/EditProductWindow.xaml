@@ -1,0 +1,50 @@
+﻿<Window x:Class="Market.Views.EditProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Market.Views"
+        mc:Ignorable="d"
+        Title="Изменение продукта" SizeToContent="WidthAndHeight"  WindowStartupLocation="CenterScreen" Height="284" Width="375">
+    <Grid Background="#42AAAA">
+        <Border MinWidth="20" MinHeight="20" Background="White" VerticalAlignment="Center" HorizontalAlignment="Center"  Padding="20" CornerRadius="20" Height="248" Width="355">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="#BFEEFA" ShadowDepth="0"/>
+            </Border.Effect>
+        </Border>
+        <TextBlock Margin="24,21,203,226"><Run Language="ru-ru" Text="Количество на складе"/><Run Text=":"/></TextBlock>
+        <TextBox  Name="QuantityBox" MinWidth="25" Margin="24,42,26,208"/>
+        <TextBlock Margin="24,65,177,185"><Run Language="ru-ru" Text="Описание:"/></TextBlock>
+        <TextBox  Name="DescriptionBox" MinWidth="25" Margin="24,83,27,167" />
+        <TextBlock Margin="24,106,177,145" Text="Название товара:"/> 
+        <TextBox  Name="NameProductBox" MinWidth="25" Margin="26,125,27,125" RenderTransformOrigin="0.562,-1.143" />
+        <TextBlock Margin="234,151,87,100" Text="Цена"/>
+        <TextBox  Name="PriceBox" MinWidth="25" Margin="188,173,87,77" />
+        <TextBlock Margin="26,151,286,100" Text="Категория"/>
+        <ComboBox Name="CategoryBox" Width="100" Margin="21,173,254,77" RenderTransformOrigin="0.173,0.511"/>
+
+
+        <WrapPanel Grid.Row="2" HorizontalAlignment="Right" Margin="0,15,0,0"/>
+        <Button FontWeight="Bold" IsDefault="True" Click="Save_Click" MinWidth="60" Margin="25,214,258,31" Content="Сохранить" RenderTransformOrigin="0.5,0.5">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button FontWeight="Bold" IsDefault="True" Click="Delete_Click" MinWidth="60" Margin="142,214,141,31" Content="Удалить" RenderTransformOrigin="0.5,0.5">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button FontWeight="Bold" IsDefault="True" Click="Back_Click" MinWidth="60" Margin="258,214,25,31" Content="Назад" RenderTransformOrigin="0.5,0.5">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</Window>
