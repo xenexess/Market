@@ -1,13 +1,13 @@
-# Система управления интернет-магазином (Market) 
+# Система управления интернет-магазином 
 ### Название приложения: Market.
 ### Описание приложения:
-Данное приложение — это программное обеспечение, которое помогает интернет-магазинам управлять процессом приема заказов, товаров и тд. Она автоматизирует и упрощает многие задачи, связанные с созданием заказов, добавлением товаров, а также клиентов.
+Данное приложение — это программное обеспечение, которое помогает интернет-магазинам управлять процессом приема заказов, товаров и многое другое
 
 # Описание функций приложения:
 1. Авторизация и регистрация.
 2. Просмотр списка товаров, клиентов, категорий и заказов.
-3. Возможность создать/редактировать/удалить заказ, товар, клиента, а также категории от лица Администратора.
-4. От лица Менеджера возможность просматривать все данный таблицы.
+3. Возможность создавать, редактировать, удалить заказы, товары, клиентов.
+4. В роли менеджера, существует возможность просматривать все таблицы.
 
 # Технологии, которые были использованы во время разработки приложения:
 - Язык программирования C# - использован для создания всей логики приложения.
@@ -21,36 +21,45 @@
 В дальнейшем, все записи отсюда выгружаются в приложение и добавляются в соответствующие списки.
 
 # Скриншоты приложения:
-![Вход](https://github.com/Rimiranaa/Market/blob/main/Screenshoots/1.png)</br>
+![image](https://github.com/xenexess/Market/assets/91844842/e5634513-088a-4040-9258-50906ac8d281)
+
 Рисунок 1. Окно входа.
 </br> </br> </br></br>
-![окно](https://github.com/Rimiranaa/Market/blob/main/Screenshoots/2.png)
+![image](https://github.com/xenexess/Market/assets/91844842/fe9f9ecd-75f0-48a0-872d-61ff5546ef4d)
+
 Рисунок 2. Окно Администратора. 
 </br> </br> </br></br>
 
-![добавление клиента](https://github.com/Rimiranaa/Market/blob/main/Screenshoots/3.png)</br>
+![image](https://github.com/xenexess/Market/assets/91844842/354242d2-51bc-4466-94c0-43b14d0b74a0)
+
 Рисунок 3. Окно добавления клиента. </br>
 </br> </br> </br></br>
 
-![Окно редактирования клиента](https://github.com/Rimiranaa/Market/blob/main/Screenshoots/4.png)</br>
+![image](https://github.com/xenexess/Market/assets/91844842/88fe9acc-da92-4081-87f2-2948176b8872)
+
 Рисунок 4. Окно редактирования клиента. </br>
 </br> </br> </br></br>
 
-![Окно редактирования заказа](https://github.com/Rimiranaa/Market/blob/main/Screenshoots/5.png)</br>
+![image](https://github.com/xenexess/Market/assets/91844842/7f4c6e3c-1b00-4304-977f-b88b3300ba59)
+
 Рисунок 5. Окно редактирования заказа. </br>
 </br></br> </br></br>
 
-![Окно добавления заказа](https://github.com/Rimiranaa/Market/blob/main/Screenshoots/6.png)</br>
+![image](https://github.com/xenexess/Market/assets/91844842/8fbec688-faae-4f76-acf3-d9ebe513d01c)
+
 Рисунок 6. Окно добавления заказа. </br>
 </br></br> </br></br>
 
-![Окно товаров и категорий](https://github.com/Rimiranaa/Market/blob/main/Screenshoots/7.png)
+![image](https://github.com/xenexess/Market/assets/91844842/c6effcdd-c374-44fd-97ef-0c055fbd8eae)
+
 Рисунок 7. Окно товаров и категорий, на котором представлен поиск товаров. </br>
 </br></br> </br></br>
 
-![Окно редактирования продукта](https://github.com/Rimiranaa/Market/blob/main/Screenshoots/8.png)</br>
+![image](https://github.com/xenexess/Market/assets/91844842/beab4330-cc66-4922-9d0b-2f8e55aa2f68)
+
 Рисунок 8. Окно редактирования продукта. </br>
 </br></br> </br></br>
 
-![Окно редактирования категорий](https://github.com/Rimiranaa/Market/blob/main/Screenshoots/9.png)</br>
+![image](https://github.com/xenexess/Market/assets/91844842/9954d80a-6e15-4a99-abe2-c89211d3fe57)
+
 Рисунок 9. Окно редактирования категорий. 
